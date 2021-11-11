@@ -1,0 +1,49 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select,
+fieldset {
+  border: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+button.confirm {
+  color: #01ba76;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 48rem;
+  margin: 2.4rem auto;
+  background-color: white;
+  box-shadow: 0 0 1em #d2d2d2;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 1.6rem;
+}
